@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 0 5rem;
+}
+
+/* landing Page */
+.landing-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-page h1 {
+  color: #e01e37;
+  font-size: 4rem;
+}
+
+.landing-page p {
+  width: 45%;
+  text-align: justify;
+}
+
+.landing-page a {
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+
+/* halaman ke dua */
+.halamandua {
+
+}
