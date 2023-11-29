@@ -6,7 +6,17 @@
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .container {
@@ -22,18 +32,33 @@ html {
 }
 
 .landing-page h1 {
-  color: #e01e37;
   font-size: 4rem;
 }
 
 .landing-page p {
   width: 45%;
   text-align: justify;
+  padding: 1rem 0;
 }
 
 .landing-page a {
-  padding-top: 0.5rem;
   text-decoration: none;
 }
 
 /* halaman ke dua */
+.halamandua {
+  background-color: #1d2020;
+  color: #fff;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.halamandua h1 {
+  padding-bottom: 1rem;
+}
+
+.halamandua p {
+  text-align: justify;
+}
