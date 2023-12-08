@@ -126,15 +126,17 @@ margin: 2rem 0 4rem 0;
 .card{
  
  
- background-image: url(/img/tedhakSiten.jpeg);
- background-size:cover;
+ 
+
  
  position: relative;
  
  
 scroll-snap-align: start;
-  background-color: black;
-  
+background-image: url("/img/kulinerIndonesia.png");
+
+background-size: cover;
+
   min-width: 100%;
   min-height: 30rem;
   
